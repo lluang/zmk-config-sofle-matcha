@@ -153,7 +153,7 @@
 &as TILDE GRAVE  &kp Q           &kp W           &kp E                &kp R             &kp T           &kp DOWN_ARROW   &kp Y         &kp U              &kp I                &kp O                    &kp P                &kp BACKSLASH
 &kp TAB          &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LEFT_CONTROL D   &hm LEFT_SHIFT F  &ltq 2 G        &kp LEFT_ARROW   &ltq 1 H      &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L          &as COLON SEMICOLON  &as DOUBLE_QUOTES SQT
 &kp LSHFT        &kp Z           &kp X           &kp C                &kp V             &kp B           &kp RIGHT_ARROW  &kp N         &kp M              &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH   &kp RIGHT_SHIFT
-&to 5            &kp LCTRL       &kp LALT        &hm C_MENU LEFT_WIN  &ltq 1 TAB        &ltq 2 ENTER    &to 6            &ltq 2 SPACE  &ltq 2 BACKSPACE   &hm INS DELETE       &kp RALT                 &kp RCTRL
+&to 5            &kp LCTRL       &kp LALT        &hm C_MENU LEFT_WIN  &ltq 1 TAB        &ltq 2 ENTER    &to 6            &ltq 2 SPACE  &ltq 1 BACKSPACE   &hm INS DELETE       &kp RALT                 &kp RCTRL
             >;
 
             sensor-bindings = <&scroll_encoder>;

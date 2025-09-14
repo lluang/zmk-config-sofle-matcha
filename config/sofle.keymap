@@ -150,11 +150,11 @@
 
         Qwery {
             bindings = <
-&kp ESCAPE  &as EXCLAMATION NUMBER_1  &as AT_SIGN NUMBER_2  &as HASH NUMBER_3   &as DOLLAR NUMBER_4  &as PERCENT N5    &kp UP_ARROW     &as CARET NUMBER_6  &as AMPERSAND N7  &as ASTERISK N8          &as LEFT_PARENTHESIS N9  &as RIGHT_PARENTHESIS N0  &kp BACKSPACE
-&kp GRAVE   &kp Q                     &kp W                 &kp E               &kp R                &kp T             &kp DOWN_ARROW   &kp Y               &kp U             &kp I                    &kp O                    &kp P                     &as PIPE NON_US_BACKSLASH
-&kp TAB     &kp A                     &kp S                 &kp D               &kp F                &kp G             &kp LEFT_ARROW   &kp H               &kp J             &kp K                    &kp L                    &kp SEMICOLON             &as DOUBLE_QUOTES SQT
-&kp LSHFT   &hm LEFT_GUI Z            &hm LEFT_ALT X        &hm LEFT_CONTROL C  &hm LEFT_SHIFT V     &lt 2 B           &kp RIGHT_ARROW  &lt 1 N             &hm RS(M) M       &hm RIGHT_CONTROL COMMA  &hm RIGHT_ALT PERIOD     &hm C_MENU SLASH          &kp RIGHT_SHIFT
-&kp C_MUTE  &kp LCTRL                 &kp LEFT_GUI          &lt 3 INS           &mo 1                &kp ENTER         &to 6            &kp SPACE           &mo 2             &lt 4 DEL                &kp C_MENU               &kp RIGHT_ALT
+&kp ESCAPE  &as EXCLAMATION NUMBER_1  &as AT_SIGN NUMBER_2  &as HASH NUMBER_3  &as DOLLAR NUMBER_4  &as PERCENT N5    &kp UP_ARROW     &as CARET NUMBER_6  &as AMPERSAND N7   &as ASTERISK N8  &as LEFT_PARENTHESIS N9  &as RIGHT_PARENTHESIS N0  &kp BACKSPACE
+&kp GRAVE   &kp Q                     &kp W                 &kp E              &kp R                &kp T             &kp DOWN_ARROW   &kp Y               &kp U              &kp I            &kp O                    &kp P                     &as PIPE NON_US_BACKSLASH
+&kp TAB     &hm C_MENU A              &hm LEFT_ALT S        &hm LCTRL D        &hm LEFT_SHIFT F     &lt 2 G           &kp LEFT_ARROW   &lt 1 H             &hm RIGHT_SHIFT J  &hm RCTRL K      &hm RIGHT_ALT L          &hm RIGHT_GUI SEMI        &as DOUBLE_QUOTES SQT
+&kp LSHFT   &kp Z                     &kp X                 &kp C              &kp V                &kp B             &kp RIGHT_ARROW  &kp N               &kp M              &kp COMMA        &kp PERIOD               &kp SLASH                 &kp RIGHT_SHIFT
+&kp C_MUTE  &kp LCTRL                 &kp LEFT_GUI          &lt 3 INS          &mo 1                &kp ENTER         &to 6            &kp SPACE           &mo 2              &lt 4 DEL        &kp C_MENU               &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
